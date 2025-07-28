@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Wheather App</title>
+</head>
+<body>
+    <main>
+        <section id="weather-wrapper">
+            <h1>Weather App</h1>
+            <div id="weather-search">
+                <input type="text" id ="country-code" placeholder="Country Code">
+                <br>
+                <input type="text" id="search" placeholder="City Name" />
+                <br>
+                <input type="submit" id="submit" onclick="fetchweather()" value="Search" />
+            </div>
+            <div id="weather-data" style="display: none;"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <script src="config.js"></script>
+</body>
+</html>

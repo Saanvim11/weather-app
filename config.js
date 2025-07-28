@@ -1,0 +1,4 @@
+// config.js
+window.CONFIG = {
+  WEATHER_API_KEY: 'dc2ae931b111190547df6a15d3cced47'
+};
